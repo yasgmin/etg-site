@@ -1,0 +1,95 @@
+.papis {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+}
+
+.esquerda {
+  display: flex;
+  width: 30%;
+}
+
+.esquerda h1 {
+  color: #0f87b3;
+  font-family: Poppins;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  margin: 0 0 0 70px;
+}
+
+.esquerda p {
+  width: 222px;
+  height: 6px;
+  flex-shrink: 0;
+  background: #e5cd39;
+  align-items: center;
+  justify-content: center;
+  margin: 20px 0 0 85px;
+}
+
+.conheca-escola {
+  border-radius: 0px 0px 30px 279px;
+  background: #eee;
+  display: flex;
+  width: 70%;
+  align-items: center;
+  justify-self: center;
+  background-color: #eee;
+}
+
+.conheca-escola h1 {
+  position: relative;
+  width: 70%;
+  color: #000;
+  font-family: Poppins;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 275;
+  line-height: normal;
+  line-height: 1.5;
+  text-align: left;
+  text-indent: 0;
+  margin: 0 0 0 50px;
+}
+
+span {
+  color: #000;
+  font-family: Poppins;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.conheca-escola h2 {
+  color: #000;
+  font-family: Poppins;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 275;
+  line-height: normal;
+  line-height: 1.5;
+  text-align: left;
+  text-indent: 0;
+  margin: 0 26px 0 50px;
+}
+
+.span2 {
+  color: #000;
+  font-family: Poppins;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+p {
+  height: 6px;
+  flex-shrink: 0;
+  background: #e5cd39;
+  align-items: center;
+  justify-content: center;
+}

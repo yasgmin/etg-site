@@ -18,13 +18,14 @@ header {
 }
 
 .logo {
-  top: -1%;
+  top: -0.5%;
+  left: 5%;
   position: fixed;
   display: flex;
   justify-content: center;
   align-items: center;
   background-color: white;
-  border-radius: 10px;
+  border-radius: 0px 0px 20px 20px;
   border: solid 6px #0f87b3;
   width: 300px;
 }

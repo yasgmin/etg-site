@@ -1,0 +1,112 @@
+.divPai {
+  display: flex;
+  width: 100%;
+  height: auto;
+}
+
+.aldo {
+  width: 100%;
+  height: 970px;
+  display: flex;
+}
+
+.aldo img {
+  position: relative;
+  right: -70%;
+}
+
+.titulo {
+  width: 100%;
+  border: #000;
+  display: flex;
+  position: relative;
+  align-items: center;
+}
+
+.texto1 {
+  margin-top: 200px;
+  position: relative;
+  left: -55%;
+  flex-direction: column;
+  display: flex;
+  width: 50%;
+  height: auto;
+  color: white;
+}
+
+.texto1 h1 {
+  display: flex;
+  color: #fff;
+  font-family: Poppins;
+  font-size: 96px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin: 0;
+}
+
+.texto1 h4 {
+  position: relative;
+  left: -1%;
+  bottom: 12%;
+  display: flex;
+  border-radius: 10px;
+  align-items: center;
+  justify-content: center;
+  border: 3px solid #0f87b3;
+  width: 446px;
+  height: 91px;
+  color: #fff;
+  font-family: Poppins;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  transition: transform 0.3s ease;
+}
+
+.texto1 h4:hover {
+  background-color: #0f87b3;
+  color: #e5cd39;
+  cursor: pointer;
+  border: 1px solid white;
+  transform: scale(1.1);
+}
+
+.titulo-principal {
+  flex-direction: column;
+  display: flex;
+  width: 100%;
+  height: 25%;
+}
+
+.texto1 h2 {
+  display: flex;
+  position: relative;
+  bottom: 25%;
+  color: #fff;
+  font-family: Poppins;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+}
+
+.texto1 h3 {
+  display: flex;
+  color: #fff;
+  font-family: Poppins;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  width: 446px;
+  height: 91px;
+  line-height: 1.5;
+  text-align: left;
+  text-indent: 0;
+}
+
+.experimental {
+  width: 100%;
+}
