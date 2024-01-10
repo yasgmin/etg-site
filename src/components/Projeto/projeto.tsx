@@ -4,16 +4,13 @@ import prot from "../../images/projeto.png";
 const Projeto = () => {
   return (
     <div className="projetoPai">
-      <section className="title">
+      <div className="title">
         {" "}
         <h1>Projeto Social</h1>
-        <p></p>
-      </section>
-      <div className="imagemP">
-        <img src={prot} alt="Projeto Social" />
+        <p className="bottom"></p>
       </div>
-      <div className="tituProjeto">
-        {" "}
+      <div className="projectSection">
+        <img src={prot} alt="Projeto Social" />
         <h2>
           Em maio, o Projeto Social de Tênis "Coração Gigante" alcança um marco
           significativo, completando cinco anos de dedicação e impacto positivo
