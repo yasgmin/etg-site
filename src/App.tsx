@@ -5,7 +5,8 @@ import Header from "./components/Header/header";
 import Apresentacao from "./components/Apresentacao/apresentacao";
 import Projeto from "./components/Projeto/projeto";
 import Depoimentos from "./components/Depoimentos/depoimentos";
-import Carousel from "./components/Carousel/Carousel";
+import Carousel from "./components/Carousel";
+import Forms from "./components/Forms/forms";
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
       <Projeto />
       <Depoimentos />
       <Carousel />
+      <Forms />
     </div>
   );
 }
