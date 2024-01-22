@@ -7,6 +7,7 @@ import Projeto from "./components/Projeto/projeto";
 import Depoimentos from "./components/Depoimentos/depoimentos";
 import Carousel from "./components/Carousel";
 import Forms from "./components/Forms/forms";
+import Footer from "./components/Footer/footer";
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
       <Depoimentos />
       <Carousel />
       <Forms />
+      <Footer />
     </div>
   );
 }
