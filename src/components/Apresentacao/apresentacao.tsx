@@ -18,7 +18,7 @@ const Apresentacao = () => {
         <img src={Tio} alt="aldo" />
         <div>
           {" "}
-          <h1>
+          <h1 id="meet">
             Conheça a <br />
             <span>Escola de Tênis Gianotti</span>
             <p></p>

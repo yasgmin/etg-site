@@ -6,13 +6,16 @@ const Footer = () => {
   return (
     <div className="footerclass">
       <div className="endereco">
-        R. Luiza Matiello Hanser, 425 - Jardim Pagliato, Sorocaba - SP,
-        18046-166
+        Endereço: R. 04 n°49 - QD. 02 LT."O" PQ. DOS BURITIS - RIO VERDE GO
       </div>
       <div className="contact">
         <div className="contato">Entre em contato conosco:</div>
-        <img src={Whats} alt="whatsapp" />
-        <img src={Insta} alt="Instagram" />
+        <a href="https://api.whatsapp.com/send?phone=5506481397337">
+          <img src={Whats} alt="whatsapp" />
+        </a>
+        <a href="https://www.instagram.com/escoladetenisgianotti/">
+          <img src={Insta} alt="Instagram" />
+        </a>
       </div>
       <div className="dev">
         Desenvolvido por:{" "}

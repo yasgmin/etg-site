@@ -13,9 +13,15 @@ const Navbar = () => {
       </div>
       <div className="lista">
         <ul>
-          <li>Sobre</li>
-          <li>Aula experimental</li>
-          <li>Endereço</li>
+          <li>
+            <a href="#meet">Sobre</a>
+          </li>
+          <li>
+            <a href="#endereco">Aula experimental</a>
+          </li>
+          <li>
+            <a href="#endereco">Endereço</a>
+          </li>
         </ul>
       </div>
     </header>

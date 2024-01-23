@@ -17,7 +17,11 @@ const Header = () => {
         <div className="experimental">
           {" "}
           <h3>Agende uma aula experimental com um de nossos professores.</h3>
-          <h4>Quero uma aula experimental grátis!</h4>
+          <h4>
+            <a href="https://api.whatsapp.com/send?phone=5506481397337">
+              Quero uma aula experimental grátis!
+            </a>
+          </h4>
         </div>
       </div>
     </div>

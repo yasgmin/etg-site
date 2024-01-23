@@ -1,4 +1,5 @@
 .projetoPai {
+  scroll-behavior: smooth;
   display: flex;
   width: 100%;
   height: fit-content;
